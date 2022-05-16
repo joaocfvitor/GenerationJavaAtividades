@@ -1,5 +1,5 @@
 package ProjetoModulo1;
 
-public class AnimalClass {
+public class Execucao1 {
 
 }

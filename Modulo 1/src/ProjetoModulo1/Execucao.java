@@ -1,18 +1,15 @@
 package ProjetoModulo1;
 
-public class Execucao extends PessoaClass {
+public class Execucao extends CadastroClass {
 	
 	public static void main(String[] args) {
 		
-		PessoaClass P1 = new PessoaClass();
-		PessoaClass P2 = new PessoaClass();
+		CadastroClass Cadastro1 = new CadastroClass();
 		
-		System.out.println("__S2__ Cadastro 1 __S2__\n");
-		P1.cadastro();
-		
-		System.out.println("__S2__ Cadastro 2 __S2__\n");
-		P2.cadastro();
-		
+		System.out.println("__S2___CADASTRO 1___S2___");
+		Cadastro1.cadastro();
 		
 	}
+	
+
 }
