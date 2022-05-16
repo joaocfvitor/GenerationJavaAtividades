@@ -150,7 +150,7 @@ public class CadastroClass extends SuperClass implements InterfaceCadastrar {
 			System.out.print("Nome: ");
 			setNome(ler.next());
 			
-			System.out.print("Indade: ");
+			System.out.print("Idade: ");
 			setIdade(ler.nextInt());
 			setMa(ler.next());
 			
