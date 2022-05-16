@@ -147,20 +147,33 @@ public class CadastroClass extends SuperClass implements InterfaceCadastrar {
 		
 		else if (condicional == 1) {
 			
-			System.out.print("Nome: ");
+			System.out.print("\nNome: ");
 			setNome(ler.next());
 			
 			System.out.print("Idade: ");
 			setIdade(ler.nextInt());
+			System.out.print("Mês/Ano: ");
 			setMa(ler.next());
 			
 			System.out.print("Endereço: Espero encontrar um logo!!");
 			
-			System.out.print("Qual o porte (P, M, G): ");
+			System.out.print("\nQual o porte (P, M, G): ");
 			setPorte(ler.next());
 			
 			System.out.println("Aceita outro pet (true or false)");
 			setAceitaOutroPet(ler.hasNext());
+			
+			if (aceitaOutroPet == true) {
+				
+				System.out.println("Vamos encontrar um lar com muitos amiguinhos!!!");
+				
+			}
+			
+			else if(aceitaOutroPet == false) {
+				
+				System.out.println("Vamos encontrar um dono solitário, que vai amar sua companhia!!");
+				
+			}
 			
 			System.out.println("\n_S2_CADASTRO CONCLUIDO_S2_\n");
 			
