@@ -24,5 +24,5 @@ public class SuperClass {
 	public void setEndereço(String endereço) {
 		this.endereço = endereço;
 	}
+
 }
-	

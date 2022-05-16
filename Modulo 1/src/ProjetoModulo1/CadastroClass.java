@@ -11,9 +11,10 @@ public class CadastroClass extends SuperClass implements InterfaceCadastrar {
 		private int condicional;
 		
 		// Informações em Comum
-		private String nome;
-	    private int idade;
-	    private String endereço;
+		
+		//private String nome;
+	    //private int idade;
+	    //private String endereço;
 	    
 		// Informações do FOFOPETER
 		private boolean paiMaeDePet;
@@ -152,7 +153,6 @@ public class CadastroClass extends SuperClass implements InterfaceCadastrar {
 			
 			System.out.print("Idade: ");
 			setIdade(ler.nextInt());
-			System.out.print("Mês/Ano: ");
 			setMa(ler.next());
 			
 			System.out.print("Endereço: Espero encontrar um logo!!");
