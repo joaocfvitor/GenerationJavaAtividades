@@ -11,5 +11,5 @@ public class Atv1Modelo {
 	
 	public void aniversario() {
 		this.idade++;
-	}
+	} 
 }

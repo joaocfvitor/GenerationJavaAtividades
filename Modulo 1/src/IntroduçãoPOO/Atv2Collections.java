@@ -10,7 +10,7 @@ public class Atv2Collections {
 		String aula2 = "BlocoII";
 		String aula3 = "BlocoIII";
 		
-		ArrayList<String> aulas = new ArrayList<>();
+		ArrayList<String> aulas = new ArrayList<>(); 
 		
 		aulas.add(aula1);
 		aulas.add(aula3);

@@ -24,7 +24,7 @@ public class Atv3Collection {
 		estoque.add("Blusa de frio");
 		estoque.add("Camisa Regata");
 		
-		Collections.sort(estoque);
+		Collections.sort(estoque); 
 		
 		System.out.println("ITENS DISPONÍVEIS NO ESTOQUE\n");
 		System.out.println(estoque);
